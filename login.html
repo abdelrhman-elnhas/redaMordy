@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#EDC607" />
+    <meta name="author" content="Master Code" />
+    <meta name="MobileOptimized" content="320" />
+    <meta property="og:title" content="Mr. Reda Mordy" />
+    <meta property="og:type" content="website" />
+    <title>أ/ رضا مرضي</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/FontAwesome/css/all.min.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container py-5">
+        <div class="row flex-column-reverse flex-lg-row">
+          <div class="col-lg-6">
+            <img src="/images/login.svg" width="100%" />
+          </div>
+          <div class="col-lg-6 text-center">
+            <h1>تسجيل الدخول</h1>
+            <form action="{{url('login')}}" method="POST">
+              <div>
+                <input
+                  type="number"
+                  name="user_login"
+                  class="form-control"
+                  placeholder="كود الطالب"
+                  required
+                />
+                <input
+                  type="password"
+                  name="user_pass"
+                  class="form-control"
+                  placeholder="كلمة المرور"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn button">تسجيل دخول</button>
+            </form>
+            <h3><a href="{{url('register')}}">انشاء حساب</a></h3>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bootstrap Script File -->
+    <script src="assets/Bootstrap/js/bootstrap.min.js"></script>
+    <!-- FontAwesome Script File -->
+    <script src="assets/FontAwesome/js/all.min.js"></script>
+  </body>
+</html>

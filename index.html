@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#EDC607" />
-    <meta name="author" content="Ultra Progress" />
+    <meta name="author" content="Master Code" />
     <meta name="MobileOptimized" content="320" />
-    <meta property="og:title" content="Seyanty" />
+    <meta property="og:title" content="Mr. Reda Mordy" />
     <meta property="og:type" content="website" />
-    <title>صيانتي</title>
+    <title>أ/ رضا مرضي</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,9 +31,14 @@
         <div
           class="container d-flex align-items-center justify-content-between gap-5"
         >
-          <a class="navbar-brand" href="#">
-            <img src="images/logoWhite.png" width="90" alt="Logo" />
-          </a>
+          <div>
+            <img
+              class="navbar-brand"
+              src="images/logoW.png"
+              style="object-fit: cover; height: 70px"
+              alt="Logo"
+            />
+          </div>
           <button
             class="navbar-toggler"
             type="button"
@@ -52,14 +57,14 @@
                   >الرئيسية</a
                 >
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#About"
-                  >خدماتنا</a
+                  >عن المعلم</a
                 >
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#Videos"
-                  >آراء العملاء</a
+                  >الفيديوهات المجانية</a
                 >
               </li>
               <li class="nav-item">
@@ -69,7 +74,7 @@
               </li>
             </ul>
             <div class="register">
-              <button class="headerBtn">تحميل التطبيق</button>
+              <button class="headerBtn">تسجيل الدخول</button>
             </div>
           </div>
         </div>
@@ -78,229 +83,299 @@
 
     <main>
       <!-- Hero Section -->
-      <section id="Hero" class="position-relative pt-5 pt-md-0">
-        <div
-          class="container hero position-relative d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center text-center text-md-end gap-5 gap-md-0"
-        >
-          <div class="heroContent col-12 col-md-6">
-            <h1>تطبيق صيـــانــتــي</h1>
-            <h3>
-              هو المكان الأمثل لتقديم حلولاً شاملة لصيانة جميع أنواع المعدات
-              والأجهزة، بأعلى معايير الجودة وأسعار تنافسية.
-            </h3>
-            <button class="heroBtn">حمل التطبيق الآن</button>
-          </div>
-          <div class="heroImg">
-            <img src="images/hero.png" class="" alt="" />
-          </div>
-        </div>
-      </section>
-
-      <!-- About Section -->
-      <!-- <section class="d-flex justify-content-center align-items-center pt-5" id="About">
-        <div
-          class="container d-flex flex-column flex-md-row justify-content-center justify-content-lg-between align-items-center gap-4">
-          <div class="logo col-12 col-md-6 p-3">
-            <img src="./images/tools.png" class="" alt="Logo" />
-          </div>
-          <div class="aboutContent col-12 col-md-6 p-3">
-            <h3 class="fw-bold mb-3">منصة التفوق</h3c>
-              <h4 class="mb-3">هي منصة لتعليم اللغة الإنجليزية</h4>
-              <h4 class="mb-3">تحت إشراف الأستاذ أحمد حلمي</h4>
-              <ul class="mb-3">
-                <li>الحاصل على ليسانس آداب اللغة الإنجليزية عام 1988</li>
-                <li> خبرة أكثر من 20 عام في تدريس اللغة الإنجليزية لطلبة الثانوية العامة المصرية</li>
-                <li>حاصل على دبلومة التدريس التفاعلي في اللغة الإنجليزية</li>
-              </ul>
-              <button>تواصل معنا</button>
-          </div>
-        </div>
-      </section> -->
-
-      <!-- Services Section -->
       <section
-        id="Services"
-        class="d-flex flex-column align-items-center justify-content-center gap-3"
+        id="Hero"
+        class="position-relative d-flex align-items-center justify-content-center align-items-center"
       >
-        <h2>خدماتنـــا</h2>
         <div
-          class="container services d-flex justify-content-between align-items-center flex-wrap"
+          class="container d-flex flex-column flex-lg-row align-items-center justify-content-center"
         >
-          <ul class="cards">
-            <li>
-              <div class="card">
-                <img src="./images/service1.jpg" class="card__image" alt="" />
-                <div class="card__overlay">
-                  <div class="card__header">
-                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                      <path />
-                    </svg>
-                    <div class="card__header-text">
-                      <h3 class="card__title">سباكة</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card">
-                <img src="./images/service4.jpg" class="card__image" alt="" />
-                <div class="card__overlay">
-                  <div class="card__header">
-                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                      <path />
-                    </svg>
-                    <div class="card__header-text">
-                      <h3 class="card__title">كهرباء</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card">
-                <img src="./images/service3.jpg" class="card__image" alt="" />
-                <div class="card__overlay">
-                  <div class="card__header">
-                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                      <path />
-                    </svg>
-                    <div class="card__header-text">
-                      <h3 class="card__title">تكييفات</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card">
-                <img src="./images/service5.jpg" class="card__image" alt="" />
-                <div class="card__overlay">
-                  <div class="card__header">
-                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                      <path />
-                    </svg>
-                    <div class="card__header-text text-center">
-                      <h3 class="card__title">فلاتر</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="card">
-                <img src="./images/service2.jpg" class="card__image" alt="" />
-                <div class="card__overlay">
-                  <div class="card__header">
-                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                      <path />
-                    </svg>
-                    <div class="card__header-text text-center">
-                      <h3 class="card__title">أجهزة منزلية</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-			<!-- Advertisment Section -->
-			<section id="Advertisment" class="">
-        <div
-          class="container d-flex justify-content-between align-items-center"
-        >
-          <div class="col-12 col-md-6 py-5 text-center text-md-end">
-            <p class="ad-title">حمل تطبيق صيانتي الآن</p>
-            <p class="ad-subtitle">و هنوفرلك الصنايعي و الخدمة اللي محتاجها بأعلى جودة و أسرع وقت</p>
-            <button class="ad-cta" onclick="window.location.href='auth.html'">
-              حمل التطبيق الآن
-            </button>
-          </div>
           <div
-            class="col-12 col-md-6 px-2 ad-img d-none d-md-flex justify-content-end align-items-center"
+            class="col-12 col-lg-6 heroContent d-flex flex-column align-items-center align-items-lg-start text-center text-lg-end"
           >
-            <img src="./images/logo.png" alt="" />
+            <h2>ســـحـــــر الكــيـمـيــاء</h2>
+            <h2>بأسلوب ممتع ومبتكر</h2>
+            <h4>مع الدكتور رضـــا عبــدالمــرضــي</h4>
+            <p>
+              تعلم الكيمياء بطرق جديدة وتفاعلية. استمتع بدروس مشوقة وتجارب حية
+              تجعل الكيمياء ممتعة ومثيرة.
+            </p>
+            <button class="heroBtn mt-2">اكتشف الآن</button>
+          </div>
+          <div class="col-12 col-lg-6">
+            <!-- <img src="./images/heroElements.png" class="heroElements" alt="" /> -->
+            <svg class="atom" viewBox="0 0 100 100">
+              <defs>
+                <filter id="blur" x="-10" y="-10" width="120" height="120">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation=".4" />
+                </filter>
+                <filter id="blur2" x="-10" y="-10" width="120" height="120">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+                </filter>
+              </defs>
+              <g filter="url(#blur2)">
+                <circle class="kern" cx="50" cy="50" r="2" />
+              </g>
+              <circle class="kern" cx="50" cy="50" r="2" />
+              <g class="lines">
+                <path
+                  class=""
+                  d="M  57.5,50 57.39,55.21 57.05,60.26 56.5,65 55.75,69.28 54.82,72.98 53.75,75.98 52.57,78.19 51.3,79.54 50,80 48.7,79.54 47.43,78.19 46.25,75.98 45.18,72.98 44.25,69.28 43.5,65 42.95,60.26 42.61,55.21 42.5,50 42.61,44.79 42.95,39.74 43.5,35 44.25,30.72 45.18,27.02 46.25,24.02 47.43,21.81 48.7,20.46 50,20 51.3,20.46 52.57,21.81 53.75,24.02 54.82,27.02 55.75,30.72 56.5,35 57.05,39.74 57.39,44.79 57.5,50"
+                ></path>
+                <path
+                  class=""
+                  d="M  53.75,56.5 49.18,59 44.64,61.23 40.26,63.13 36.17,64.62 32.51,65.67 29.38,66.24 26.87,66.32 25.07,65.9 24.02,65 23.76,63.64 24.3,61.87 25.63,59.74 27.69,57.32 30.43,54.67 33.76,51.88 37.59,49.03 41.8,46.21 46.25,43.5 50.82,41 55.36,38.77 59.74,36.88 63.83,35.38 67.49,34.33 70.62,33.76 73.13,33.68 74.93,34.1 75.98,35 76.24,36.36 75.7,38.13 74.38,40.26 72.31,42.68 69.57,45.33 66.24,48.12 62.41,50.97 58.2,53.79 53.75,56.5"
+                ></path>
+                <path
+                  class=""
+                  d="M  53.75,43.5 58.2,46.21 62.41,49.03 66.24,51.88 69.57,54.67 72.31,57.32 74.38,59.74 75.7,61.87 76.24,63.64 75.98,65 74.93,65.9 73.13,66.32 70.63,66.24 67.49,65.67 63.83,64.62 59.74,63.13 55.36,61.23 50.82,59 46.25,56.5 41.8,53.79 37.59,50.97 33.76,48.13 30.43,45.33 27.69,42.68 25.63,40.26 24.3,38.13 23.76,36.36 24.02,35 25.07,34.1 26.87,33.68 29.37,33.76 32.51,34.33 36.17,35.38 40.26,36.87 44.64,38.77 49.18,41 53.75,43.5"
+                ></path>
+              </g>
+              <g class="electronTails" filter="url(#blur)">
+                <path
+                  class="tail tail1"
+                  d="M  57.5,50 57.39,55.21 57.05,60.26 56.5,65 55.75,69.28 54.82,72.98 53.75,75.98 52.57,78.19 51.3,79.54 50,80 48.7,79.54 47.43,78.19 46.25,75.98 45.18,72.98 44.25,69.28 43.5,65 42.95,60.26 42.61,55.21 42.5,50 42.61,44.79 42.95,39.74 43.5,35 44.25,30.72 45.18,27.02 46.25,24.02 47.43,21.81 48.7,20.46 50,20 51.3,20.46 52.57,21.81 53.75,24.02 54.82,27.02 55.75,30.72 56.5,35 57.05,39.74 57.39,44.79 57.5,50"
+                ></path>
+                <path
+                  class="tail tail2"
+                  d="M  53.75,56.5 49.18,59 44.64,61.23 40.26,63.13 36.17,64.62 32.51,65.67 29.38,66.24 26.87,66.32 25.07,65.9 24.02,65 23.76,63.64 24.3,61.87 25.63,59.74 27.69,57.32 30.43,54.67 33.76,51.88 37.59,49.03 41.8,46.21 46.25,43.5 50.82,41 55.36,38.77 59.74,36.88 63.83,35.38 67.49,34.33 70.62,33.76 73.13,33.68 74.93,34.1 75.98,35 76.24,36.36 75.7,38.13 74.38,40.26 72.31,42.68 69.57,45.33 66.24,48.12 62.41,50.97 58.2,53.79 53.75,56.5"
+                ></path>
+                <path
+                  class="tail tail3"
+                  d="M  53.75,43.5 58.2,46.21 62.41,49.03 66.24,51.88 69.57,54.67 72.31,57.32 74.38,59.74 75.7,61.87 76.24,63.64 75.98,65 74.93,65.9 73.13,66.32 70.63,66.24 67.49,65.67 63.83,64.62 59.74,63.13 55.36,61.23 50.82,59 46.25,56.5 41.8,53.79 37.59,50.97 33.76,48.13 30.43,45.33 27.69,42.68 25.63,40.26 24.3,38.13 23.76,36.36 24.02,35 25.07,34.1 26.87,33.68 29.37,33.76 32.51,34.33 36.17,35.38 40.26,36.87 44.64,38.77 49.18,41 53.75,43.5"
+                ></path>
+              </g>
+              <g class="electrons">
+                <path
+                  class="electron electron1"
+                  d="M  57.5,50 57.39,55.21 57.05,60.26 56.5,65 55.75,69.28 54.82,72.98 53.75,75.98 52.57,78.19 51.3,79.54 50,80 48.7,79.54 47.43,78.19 46.25,75.98 45.18,72.98 44.25,69.28 43.5,65 42.95,60.26 42.61,55.21 42.5,50 42.61,44.79 42.95,39.74 43.5,35 44.25,30.72 45.18,27.02 46.25,24.02 47.43,21.81 48.7,20.46 50,20 51.3,20.46 52.57,21.81 53.75,24.02 54.82,27.02 55.75,30.72 56.5,35 57.05,39.74 57.39,44.79 57.5,50"
+                ></path>
+                <path
+                  class="electron electron2"
+                  d="M  53.75,56.5 49.18,59 44.64,61.23 40.26,63.13 36.17,64.62 32.51,65.67 29.38,66.24 26.87,66.32 25.07,65.9 24.02,65 23.76,63.64 24.3,61.87 25.63,59.74 27.69,57.32 30.43,54.67 33.76,51.88 37.59,49.03 41.8,46.21 46.25,43.5 50.82,41 55.36,38.77 59.74,36.88 63.83,35.38 67.49,34.33 70.62,33.76 73.13,33.68 74.93,34.1 75.98,35 76.24,36.36 75.7,38.13 74.38,40.26 72.31,42.68 69.57,45.33 66.24,48.12 62.41,50.97 58.2,53.79 53.75,56.5"
+                ></path>
+                <path
+                  class="electron electron3"
+                  d="M  53.75,43.5 58.2,46.21 62.41,49.03 66.24,51.88 69.57,54.67 72.31,57.32 74.38,59.74 75.7,61.87 76.24,63.64 75.98,65 74.93,65.9 73.13,66.32 70.63,66.24 67.49,65.67 63.83,64.62 59.74,63.13 55.36,61.23 50.82,59 46.25,56.5 41.8,53.79 37.59,50.97 33.76,48.13 30.43,45.33 27.69,42.68 25.63,40.26 24.3,38.13 23.76,36.36 24.02,35 25.07,34.1 26.87,33.68 29.37,33.76 32.51,34.33 36.17,35.38 40.26,36.87 44.64,38.77 49.18,41 53.75,43.5"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <svg
+              id=""
+              preserveAspectRatio="xMidYMax meet"
+              class="svg-separator sep5"
+              viewBox="0 0 1600 200"
+              style="
+                display: block;
+                transform: scale(1, -1) translate(0, -200px);
+              "
+              data-height="200"
+            >
+              <polygon
+                class=""
+                style="fill: #2b1f54"
+                points="1488,134 1304,100 1068,152 909.935,92.044 672,198 364,142 242,32 -4,95 -4,204 1604,204 1604,0 "
+              ></polygon>
+              <polygon
+                class=""
+                style="opacity: 1; fill: #eee"
+                points="672,198 364,142 242,32 -4,95 -4,82.333 242,32 374,136 "
+              ></polygon>
+              <polygon
+                class=""
+                style="opacity: 1; fill: #eee"
+                points="894,86 672,198 909.935,92.044 "
+              ></polygon>
+              <polygon
+                class=""
+                style="opacity: 1; fill: #eee"
+                points="1068,152 1302,86 1486,126 1604,0 1488,134 1304,100 "
+              ></polygon>
+            </svg>
           </div>
         </div>
       </section>
 
-      <!-- Reviews section -->
-      <section id="Reviews" class="d-flex flex-column align-items-center justify-content-center py-5">
-					<div class="row d-flex justify-content-center testimonial-pos">
-							<div class="col-md-12 pt-4 d-flex justify-content-center">
-									<h3>آراء عملاؤنا </h3>
-							</div>
-							<div class="col-md-12 d-flex justify-content-center my-2">
-									<h2>آرائكم و ثقتكم هي أكبر حافذ لنا</h2>
-							</div>
-					</div>
-					<section class="home-testimonial-bottom">
-							<div class="container testimonial-inner">
-									<div class="row d-flex justify-content-center gap-0">
-											<div class="col-md-4 p-2">
-													<div class="tour-item ">
-															<div class="tour-desc bg-white">
-																	<div class="tour-text color-grey-3 text-center">&ldquo;العامل كان في غاية الاحترام و في مستوى عالي من الاحترافية المهنية&rdquo;</div>
-																	<div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="./images/avatar.png" alt=""></div>
-																	<div class="link-name d-flex justify-content-center">عبدالرحمن النحاس</div>
-															</div>
-													</div>
-											</div>
-											<div class="col-md-4 p-2">
-													<div class="tour-item ">
-															<div class="tour-desc bg-white">
-																	<div class="tour-text color-grey-3 text-center">&ldquo;العامل كان في غاية الاحترام و في مستوى عالي من الاحترافية المهنية&rdquo;</div>
-																	<div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="./images/avatar.png" alt=""></div>
-																	<div class="link-name d-flex justify-content-center">عبدالرحمن النحاس</div>
-															</div>
-													</div>
-											</div>
-											<div class="col-md-4 p-2">
-													<div class="tour-item ">
-															<div class="tour-desc bg-white">
-																	<div class="tour-text color-grey-3 text-center">&ldquo;العامل كان في غاية الاحترام و في مستوى عالي من الاحترافية المهنية&rdquo;</div>
-																	<div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="./images/avatar.png" alt=""></div>
-																	<div class="link-name d-flex justify-content-center">عبدالرحمن النحاس</div>
-															</div>
-													</div>
-											</div>
-									</div>
-					</section>
+      <!-- Banner -->
+      <section
+        id="Banner"
+        class="d-flex align-items-center justify-content-center position-relative"
+      >
+        <div class="container d-flex align-items-center justify-content-center">
+          <p>
+            Chemistry is <span class="typed-text"></span
+            ><span class="cursor">&nbsp;</span>
+          </p>
+        </div>
+        <div class="row">
+          <div>
+            <svg
+              id=""
+              preserveAspectRatio="xMidYMax meet"
+              class="svg-separator2 sep5"
+              viewBox="0 0 1600 200"
+              style="display: block"
+              data-height="200"
+            >
+              <polygon
+                class=""
+                style="fill: var(--first-color)"
+                points="1488,134 1304,100 1068,152 909.935,92.044 672,198 364,142 242,32 -4,95 -4,204 1604,204 1604,0 "
+              ></polygon>
+              <polygon
+                class=""
+                style="opacity: 1; fill: #eee"
+                points="672,198 364,142 242,32 -4,95 -4,82.333 242,32 374,136 "
+              ></polygon>
+              <polygon
+                class=""
+                style="opacity: 1; fill: #eee"
+                points="894,86 672,198 909.935,92.044 "
+              ></polygon>
+              <polygon
+                class=""
+                style="opacity: 1; fill: #eee"
+                points="1068,152 1302,86 1486,126 1604,0 1488,134 1304,100 "
+              ></polygon>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Videos Section -->
+      <section
+        id="Videos"
+        class="d-flex flex-column align-items-center justify-content-center"
+      >
+        <div class="glitch mb-5" data-text="الفيديوهات المجانية">
+          الفيديوهات المجانية
+        </div>
+        <div
+          class="container d-flex flex-column flex-md-row align-items-center justify-content-center flex-wrap"
+        >
+          <div class="col-12 col-md-6 col-lg-3 px-4 mb-5">
+            <div
+              class="videoCard d-flex flex-column align-items-center justify-content-center p-3"
+            >
+              <div class="videoImage">
+                <img src="./images/video.jpg" alt="" />
+              </div>
+              <div
+                class="videoContent mt-3 text-end d-flex flex-column align-items-start"
+              >
+                <h4>الكيمياء الحيوية</h4>
+                <p>
+                  اكتشف عالماً مليئاً بالإثارة في كيمياء العضوية، حيث تكشف
+                  الجزيئات أسرارها المخفية. هل أنت جاهز لفك شفرات المركبات ودخول
+                  متاهة الكربون الغامضة؟
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 px-4 mb-5">
+            <div
+              class="videoCard d-flex flex-column align-items-center justify-content-center p-3"
+            >
+              <div class="videoImage">
+                <img src="./images/video.jpg" alt="" />
+              </div>
+              <div
+                class="videoContent mt-3 text-end d-flex flex-column align-items-start"
+              >
+                <h4>الكيمياء الحيوية</h4>
+                <p>
+                  اكتشف عالماً مليئاً بالإثارة في كيمياء العضوية، حيث تكشف
+                  الجزيئات أسرارها المخفية. هل أنت جاهز لفك شفرات المركبات ودخول
+                  متاهة الكربون الغامضة؟
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 px-4 mb-5">
+            <div
+              class="videoCard d-flex flex-column align-items-center justify-content-center p-3"
+            >
+              <div class="videoImage">
+                <img src="./images/video.jpg" alt="" />
+              </div>
+              <div
+                class="videoContent mt-3 text-end d-flex flex-column align-items-start"
+              >
+                <h4>الكيمياء الحيوية</h4>
+                <p>
+                  اكتشف عالماً مليئاً بالإثارة في كيمياء العضوية، حيث تكشف
+                  الجزيئات أسرارها المخفية. هل أنت جاهز لفك شفرات المركبات ودخول
+                  متاهة الكربون الغامضة؟
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 px-4 mb-5">
+            <div
+              class="videoCard d-flex flex-column align-items-center justify-content-center p-3"
+            >
+              <div class="videoImage">
+                <img src="./images/video.jpg" alt="" />
+              </div>
+              <div
+                class="videoContent mt-3 text-end d-flex flex-column align-items-start"
+              >
+                <h4>الكيمياء الحيوية</h4>
+                <p>
+                  اكتشف عالماً مليئاً بالإثارة في كيمياء العضوية، حيث تكشف
+                  الجزيئات أسرارها المخفية. هل أنت جاهز لفك شفرات المركبات ودخول
+                  متاهة الكربون الغامضة؟
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner -->
+      <section
+        id="Banner2"
+        class="d-flex align-items-center justify-content-center position-relative"
+      >
+        <div
+          class="container d-flex flex-column align-items-center justify-content-center"
+        >
+          <p class="text-center">
+            اشترك الآن في المنصة وتمتع بالوصول إلى دورات الكيمياء المشوقة!
+          </p>
+          <button class="heroBtn mt-3">اشترك الآن!</button>
+        </div>
       </section>
 
       <!-- Contact Section -->
       <section id="Contact" class="d-flex align-items-center py-5">
         <div
-          class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-5"
+          class="container d-flex flex-column flex-md-row align-items-center justify-content-center"
         >
-          <div class="contactForm col-12 col-md-7 p-lg-5">
-            <div class="card text-center text-md-end">
-              <h2>تـــواصــل معــنا</h2>
-              <form
-                action=""
-                class="row justify-content-center align-items-center flex-column g-3"
-              >
-                <input class="col-12" type="text" placeholder="اسم المستخدم" />
-                <input
-                  class="col-12"
-                  type="number"
-                  placeholder="رقم التليفون"
-                />
-                <textarea
-                  class="col-12"
-                  type="textarea"
-                  cols="60"
-                  rows="6"
-                  placeholder="اترك رسالتك هنا ..."
-                ></textarea>
-                <button class="contact-btn btn" type="submit">ارسال</button>
-              </form>
-            </div>
+          <div class="card col-12 col-md-6">
+            <p class="contactus">تـــواصـــل معـــنــا</p>
+            <form
+              action=""
+              class="row justify-content-center align-items-center flex-column g-3"
+            >
+              <input class="col-12" type="text" placeholder="اسم المستخدم" />
+              <input class="col-12" type="number" placeholder="رقم التليفون" />
+              <textarea
+                class="col-12"
+                type="textarea"
+                cols="60"
+                rows="6"
+                placeholder="اترك رسالتك هنا ..."
+              ></textarea>
+              <button class="contact-btn btn" type="submit">ارســــــال</button>
+            </form>
           </div>
-          <div class="contactIllustration col-12 col-md-5">
-            <img src="./images/contact.svg" class="contactImg" alt="" />
+          <div class="col-12 col-md-6 contactImg d-none d-md-block">
+            <img src="./images/contact.png" alt="" />
           </div>
         </div>
       </section>
@@ -308,7 +383,7 @@
 
     <!-- Footer Section -->
     <footer id="Footer">
-      <div class="container mb-5">
+      <div class="container">
         <div class="text-center text-lg-start text-white pt-5">
           <div class="text-center text-md-end mt-5">
             <div class="row mt-3">
@@ -317,11 +392,11 @@
                 <p>
                   <a href="#">الرئيسية</a>
                 </p>
+                <!-- <p>
+                  <a href="#">عن المعلم</a>
+                </p> -->
                 <p>
-                  <a href="#">خدماتنا</a>
-                </p>
-                <p>
-                  <a href="#">آراء العملاء</a>
+                  <a href="#">الفيديوهات المجانية</a>
                 </p>
                 <p>
                   <a href="#">تواصل معنا</a>
@@ -329,22 +404,22 @@
               </div>
 
               <div class="links col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="fw-bold">أهم الروابط</h6>
+                <h6 class="fw-bold">أهم الصفحــات</h6>
                 <p>
-                  <a href="#">حمل التطبيق الآن</a>
+                  <a href="#">إنشاء حساب</a>
                 </p>
-                <!-- <p>
-                  <a href="#"></a>
-                </p> -->
+                <p>
+                  <a href="#">تسجيل الدخول</a>
+                </p>
               </div>
 
-              <!-- <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 class="text-uppercase fw-bold">تواصـــل معــنــــا</h6>
                 <p><i class="fa-solid fa-location-crosshairs"></i> كفرالشيخ</p>
                 <p>
                   <a href="mailto:" class="footer-links"
                     ><i class="fa-regular fa-envelope"></i>
-                    info@ahmedhelmy.net</a
+                    info@redamordy.com</a
                   >
                 </p>
                 <p dir="ltr">
@@ -353,11 +428,11 @@
                     <i class="fa-solid fa-mobile-screen-button ms-1"></i
                   ></a>
                 </p>
-              </div> -->
+              </div>
 
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 pt-4">
                 <img
-                  src="./images/logoWhite.png"
+                  src="./images/logoW.png"
                   class="img-fluid"
                   alt="Altafawouk Logo"
                 />
@@ -367,9 +442,9 @@
         </div>
       </div>
       <div class="footerBottom text-center p-3" dir="ltr">
-        Seyanty © 2024. Developed by
-        <a href="https://www.facebook.com/ultraprogress1">Ultra Progress</a>.
-        All Rights Reserved.
+        © 2024 Copyright
+        <a href="https://www.facebook.com/masterc0de">Master Code</a>. All
+        Rights Reserved.
       </div>
     </footer>
 
@@ -377,5 +452,7 @@
     <script src="assets/Bootstrap/js/bootstrap.min.js"></script>
     <!-- FontAwesome Script File -->
     <script src="assets/FontAwesome/js/all.min.js"></script>
+    <!-- Script File -->
+    <script src="./app.js"></script>
   </body>
 </html>
